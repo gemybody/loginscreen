@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login/login.dart';
 
 import 'App_colors.dart';
 
@@ -132,7 +133,7 @@ class RegisterScreen extends StatelessWidget {
                 children: [
                   Text('I haven"/t" an account  ',style: TextStyle(color: Colors.white),),
                   TextButton(onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>RegisterScreen()),);
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()),);
                   }, child: Text('LOGIN'),)
                 ],
               ),
